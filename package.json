@@ -1,0 +1,11 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Starting point for a project that follows docs/PROJECT_STANDARDS.md",
+  "scripts": {
+    "check:copy": "node scripts/check-copy.mjs src",
+    "check:leaks": "node scripts/check-leaks.mjs dist public"
+  }
+}
